@@ -1,0 +1,46 @@
+.login_page_main_div{
+    margin: 2rem 3rem;
+}
+.top_heading_for_back_buttton_login_page span{
+    display: flex;
+    align-items: center;
+    width: 3.5rem;
+    cursor: pointer;
+}
+.lower_div_for_form_for_api_user{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lower_div_inner_form_div_for_api_user{
+    width: 375px;
+    margin-top: 1rem;
+}
+.action_button_for_user_api_form{
+    width: 100%;
+    margin-top: 2rem;
+    padding: .7rem;
+    background-color: black;
+    border-radius: 9px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.click_here_to_jump_div_user_api{
+    margin-top: 1rem;
+    cursor: pointer;
+    color: royalblue;
+}
+@media only screen and (max-width: 500px) {
+    .lower_div_inner_form_div_for_api_user{
+        width: 330px;
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .login_page_main_div{
+        margin: 2rem 1rem;
+    }
+}

@@ -1,0 +1,167 @@
+.hero_section_main_div_home_page{
+    height: calc(100vh - 3.5rem);
+    background-color: #552b9a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.hero_setion_main_inner_div_page{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* backdrop-filter: blur(10px); */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_section_inner_div_main_page_left_side_data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 3rem;
+    width: 40%;
+}
+.love_shopping_heading_hero_section{
+    font-size: 4rem;
+    font-weight: bold;
+    background-color: goldenrod;
+    padding: 1rem;
+    width: 80%;
+}
+.keep_shopping{
+    background-color: #552b9a;
+    font-size: 5rem;
+    color: white;
+    width: 100%;
+}
+.hero_section_motive_intro_div{
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+.button_for_hero_section_div_main_page button{
+    font-size: 1.3rem;
+    background-color: #552b9a;
+    border-radius: 8px;
+    padding: .6rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.hero_section_inner_div_main_page_right_side_data{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.hero_section_inner_div_main_page_right_side_data img{
+    border-radius: 10px;
+    scale: 1.2;
+}
+@media only screen and (max-width : 1400px){
+    .hero_section_inner_div_main_page_left_side_data{
+        width: 50%;
+    }
+    .love_shopping_heading_hero_section{
+        font-size: 3rem;
+    }
+    .keep_shopping{
+        font-size: 4rem;
+    }
+    .hero_section_inner_div_main_page_right_side_data img{
+        scale: 1;
+    }
+    .hero_section_main_div_home_page{
+        padding: 1.6rem;
+    }
+}
+@media only screen and (max-width : 1220px){
+    .hero_section_inner_div_main_page_left_side_data{
+        width: 50%;
+    }
+    .hero_section_inner_div_main_page_right_side_data{
+        width: 50%;
+    }
+    .love_shopping_heading_hero_section{
+        font-size: 2.6rem;
+    }
+    .keep_shopping{
+        font-size: 3.7rem;
+    }
+    .hero_section_inner_div_main_page_right_side_data img{
+        scale: .8;
+    }
+}
+@media only screen and (max-width : 1010px){
+    .love_shopping_heading_hero_section{
+        font-size: 2rem;
+    }
+    .keep_shopping{
+        font-size: 3rem;
+    }
+    .hero_section_inner_div_main_page_right_side_data img{
+        scale: .8;
+    }
+    .hero_section_inner_div_main_page_right_side_data{
+        width: 50%;
+    }
+    .hero_section_motive_intro_div{
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (max-width : 950px){
+    .hero_setion_main_inner_div_page{
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+    .hero_section_main_div_home_page{
+        height: auto;
+    }
+    .hero_section_inner_div_main_page_left_side_data{
+        width: 80%;
+    }
+    .hero_section_inner_div_main_page_right_side_data{
+        width: 80%;
+    }
+    .hero_section_inner_div_main_page_right_side_data img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 750px){
+    .hero_section_main_div_home_page{
+        padding: 1rem;
+        padding-top: 0;
+    }
+    .hero_section_inner_div_main_page_left_side_data{
+        width: 90%;
+        padding-left: 0;
+    }
+    .hero_section_inner_div_main_page_right_side_data{
+        width: 90%;
+    }
+    .hero_section_inner_div_main_page_right_side_data img{
+        width: 100%;
+    }
+    .button_for_hero_section_div_main_page button{
+        font-size: 1.1rem;
+        padding: .4rem;
+    }
+    .love_shopping_heading_hero_section{
+        font-size: 1.5rem;
+    }
+    .keep_shopping{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width : 550px){
+    .hero_section_inner_div_main_page_left_side_data{
+        width: 100%;
+    }
+    .hero_section_inner_div_main_page_right_side_data{
+        width: 100%;
+    }
+    .keep_shopping{
+        font-size: 2rem;
+    }
+}

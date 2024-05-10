@@ -1,0 +1,22 @@
+.lower_div_for_controlls_div_for_admin_panel{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+.left_side_panle_slider_div_for_the_buttons{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-top: 1rem;
+}
+.right_side_display_container_for_the_user{
+    width: 80%;
+}
+.manage_proudcts_button_for_the_user , .view_sales_button_for_the_past_div_for_amdin_panel ,.check_orders_from_client_div_admin_panel{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+.no_active_tabs_for_the_admin_panel_div_page{
+    text-align: center;
+    margin-top: 2rem;;
+}

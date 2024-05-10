@@ -1,0 +1,85 @@
+/* ProductReview.css */
+
+.create_product_review_div_for_the_single_product {
+    /* max-width: 600px;     */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+
+.create_product_review_div_for_the_single_product h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.create_product_review_div_for_the_single_product textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.create_product_review_div_for_the_single_product .star {
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.create_product_review_div_for_the_single_product .star:hover {
+    color: #ffdd76;
+}
+
+.create_product_review_div_for_the_single_product .star-selected {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffc107;
+}
+
+.create_product_review_div_for_the_single_product .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create_product_review_div_for_the_single_product .btn:hover {
+    background-color: #0056b3;
+}
+
+.review-list {
+    margin-top: 40px;
+}
+
+.review-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.review-item h4 {
+    margin-top: 0;
+}
+
+.review-item p {
+    margin-bottom: 10px;
+}
+
+.review-item .rating {
+    margin-bottom: 10px;
+}
+
+.review-item .rating .star {
+    color: gold ;
+    font-size: 16px;
+    margin-right: 2px;
+}

@@ -1,0 +1,19 @@
+.single_order_main_div_admin_panel{
+    /* background-color: red; */
+}
+.title_div_for_the_order_name_div{
+    /* height: 2.9rem; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.outer_div_modal_for_the_single_order{
+    display: flex;
+    justify-content: space-between;
+}
+.left_side_order_div_for_the_images_for_product_modal{
+    width: 45%;
+}
+.right_side_div_for_the_order_div_in_admin_panel{
+    width: 51%;
+}

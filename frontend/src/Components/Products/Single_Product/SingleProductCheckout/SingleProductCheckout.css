@@ -1,0 +1,47 @@
+.image_div_for_single_div_of_check_out_for_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13rem;
+}
+.image_div_for_single_div_of_check_out_for_page img{
+    height: 100%;
+    object-fit: content;
+}
+.total_div_check_out_all_price_div{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+.single_producct_check_out_page_for_e_commerce{
+    display: flex;
+    justify-content: space-around;
+}
+.left_side_product_detail_div_check_out_page{
+    width: 45%;
+}
+.right_side_product_checkout_div_card_payment_div_info{
+    width: 45%;
+}
+.items_count_input_div_single_checkout{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.increase_btn_for_the_product_check_out ,.decrease_btn_for_the_product_check_out{
+    height : 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.total_amount_to_pay_right_side_single_checkout{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.card_date_and_cvv_div_for_the_order{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 1rem;
+}

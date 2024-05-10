@@ -1,0 +1,11 @@
+.admin_panel_manage_product_div_addition{
+    display: flex;
+}
+.left_side_image_and_info_div_for_the_product_div_manage_product_div{
+    display: flex;
+    width: 80%;
+}
+.single_image_div_for_the_upload_display img{
+    object-fit: contain;
+    height: 90%;
+}

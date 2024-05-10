@@ -1,0 +1,14 @@
+.accordation_body_div_for_sold_products_analytics{
+    display: flex;
+    align-items: center;
+}
+.total_sales_div_for_the_analytics_of_sold{
+    display: flex;
+    align-items: center;
+    margin-right: 2.5rem;
+    font-size: 1.3rem;
+}
+.heading_for_total_sales_alayics_div{
+    margin-right: 1rem;
+    font-weight: bold;
+}

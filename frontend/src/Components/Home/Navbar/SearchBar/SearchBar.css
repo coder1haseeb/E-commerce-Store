@@ -1,0 +1,31 @@
+.top_input_div_for_search_box input{
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    padding: .4rem;
+    outline: none;
+}
+.no_items_searched_yet_tag_div_for_search_box{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    grid-column-end: span 4;
+}
+.single_product_after_searched_items{
+    margin: .7rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    padding: .5rem 0;
+    cursor: pointer;
+}
+.display_product_info_for_searched_itesm{
+    margin-top: 1rem;
+}
+.name_div_for_searched_item_div{
+    font-size: 1.2rem;
+} 
+@media only screen and (max-width: 600px){
+    .name_div_for_searched_item_div{
+        font: 1rem;
+    }
+}
